@@ -1,0 +1,84 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #f2f2f2;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+.logo img {
+	max-height: 50px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding-bottom: 100px; 
+  }
+  
+  footer {
+    /* position: bottom; */
+    bottom: 20%;
+    width: 100%;
+
+    background-color: #1f0469;
+  }
+  
+  main {
+    /* Add padding to the bottom of the main content area */
+    padding-bottom: 50px;
+  }
+  
+  footer {
+    /* Position the footer at the bottom of the page */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Add some space between the footer and the main content area */
+    padding: 20px;
+  }
+  
+  .scroll-down-btn {
+    /* Position the button at the bottom center of the page */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Style the button with a background color, padding, and border */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    /* Add some hover effects */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .scroll-down-btn:hover {
+    /* Change the background color and add a shadow on hover */
+    background-color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
